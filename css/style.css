@@ -754,7 +754,7 @@ a:hover {
 }
 
 .screenshot-feature__headline {
-  font-size: var(--text-4xl);
+  font-size: var(--text-5xl);
   margin-bottom: var(--space-xl);
 }
 
@@ -782,17 +782,19 @@ a:hover {
 }
 
 /* Image-attachment bubble (iMessage style) */
-.bubble--image-attach {
+.bubble--image-attach,
+.bubble.bubble--user.bubble--image-attach {
   display: flex;
   align-items: center;
   gap: 8px;
-  background: #D1D1D6;
-  color: var(--ink);
+  background: #D1D1D6 !important;
+  color: var(--ink) !important;
   border-radius: 14px;
   padding: 10px 16px;
   min-width: 130px;
   max-width: 160px;
   border-bottom-right-radius: 6px;
+  margin-left: auto;
 }
 
 .bubble--image-icon {
@@ -841,7 +843,7 @@ a:hover {
   }
 
   .screenshot-feature__headline {
-    font-size: var(--text-3xl);
+    font-size: var(--text-4xl);
   }
 
   .screenshot-feature__copy {
