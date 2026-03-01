@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://handledvip.com/sitemap.xml
